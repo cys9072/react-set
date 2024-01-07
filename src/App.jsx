@@ -71,7 +71,7 @@ const App = () => {
         <Route path="/my-page/info/caddie" element={<Pages.MyInfoPage adminType="caddie" />} />
         <Route path="/my-page/info/store" element={<Pages.MyInfoPage adminType="store" />} />
 
-        {/* app */}
+        {/* test pub */}
         {/* My_page -common */}
         <Route path="/my-page/info/edit/user" element={<Pages.MyInfoEditPage adminType="user" />} />
         <Route path="/my-page/info/edit/caddie" element={<Pages.MyInfoEditPage adminType="caddie" />} />
